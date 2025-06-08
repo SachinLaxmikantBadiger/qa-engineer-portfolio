@@ -1,2 +1,55 @@
+# macOS system files
 .DS_Store
+
+# Logs
+*.log
+
+# Environment and local config
+.env
+*.local
+config.json
+*.secret
+
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Java/Maven related (for automation-testing with Selenium)
+target/
+*.class
+
+# Node modules (if using Newman or Node-based tools)
+node_modules/
+npm-debug.log
+
+# IntelliJ / Eclipse / VSCode project files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.sublime*
+
+# Reports and results
+*.html
+*.jtl
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Postman environment and temp files
+*.postman_environment.json
+newman/
+
+# Misc
+*.bak
+*.tmp
+*.zip
+*.tar.gz
+≈.DS_Store
 
